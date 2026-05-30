@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+dist/
+build/
+tests/dev_proxy_*.py
+!tests/dev_proxy_*.example.py

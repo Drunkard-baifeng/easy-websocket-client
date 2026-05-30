@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easy-websocket-client"
+version = "0.1.0"
+description = "Small sync and async WebSocket client wrappers with proxy and heartbeat support."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "easy_websocket contributors" }
+]
+dependencies = [
+  "websockets>=15.0",
+  "python-socks[asyncio]>=2.4",
+]
+
+[project.urls]
+Homepage = "https://example.com/easy-websocket-client"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["easy_websocket*"]
