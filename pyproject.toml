@@ -18,7 +18,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://example.com/easy-websocket-client"
+Homepage = "https://github.com/Drunkard-baifeng/easy-websocket-client"
+Source = "https://github.com/Drunkard-baifeng/easy-websocket-client"
+Issues = "https://github.com/Drunkard-baifeng/easy-websocket-client/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
